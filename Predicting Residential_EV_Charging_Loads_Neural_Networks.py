@@ -122,5 +122,5 @@ with torch.no_grad(): # disable gradient calculations
     
 print('Neural Network - Test Set MSE:', test_loss.item()) # print testing set MSE
 # Neural Network - Test Set MSE: 115.21600341796875
-# Pretty cool! The increased training improved our test loss to about 115.2, a full 12% improvement on our linear regression baseline. 
-# So the nonlinearity introduced by the neural network actually helped us out.
+# The increased training improved our test loss to about 115.2, a full 12% improvement on my linear regression baseline. 
+# The nonlinearity introduced by the neural network helped.
