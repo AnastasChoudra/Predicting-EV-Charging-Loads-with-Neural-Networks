@@ -26,4 +26,33 @@ Mendeley open dataset
 ---
 
 ## 🏗️ Model
-3-layer fully-connected network built in PyTorch  
+3-layer fully-connected network built in PyTorch (26→56→26→1 architecture)
+- **Training**: 3000-4500 epochs with Adam optimizer (lr=0.0007)
+- **Loss Function**: Mean Squared Error (MSE)
+- **Results**: Test MSE = 115.2 kWh² (12% improvement over linear baseline)
+
+---
+
+## 💼 Professional Context
+
+This project demonstrates **analytical and energy-related experience** relevant to roles in:
+- Energy analytics and forecasting
+- EV infrastructure planning
+- Utility operations and grid management
+- Data science in the energy sector
+
+### Key Competencies Showcased
+✅ **Analytical Skills**: Statistical modeling, feature engineering, model evaluation, performance optimization  
+✅ **Energy Domain**: EV charging infrastructure, load forecasting, utility planning, energy consumption analysis  
+✅ **Technical Skills**: Python, PyTorch, scikit-learn, pandas, regression analysis, neural networks  
+✅ **Business Impact**: Supporting infrastructure decisions, revenue forecasting, capacity planning
+
+📄 **See [EXPERIENCE_SHOWCASE.md](EXPERIENCE_SHOWCASE.md) for detailed breakdown of skills and experience demonstrated by this project**
+
+---
+
+## 🎯 Business Applications
+- **Transformer Sizing**: Predict peak loads to size electrical infrastructure appropriately
+- **Revenue Forecasting**: Estimate energy costs before installing charging stations
+- **Load Management**: Schedule and balance electrical loads across the distribution network
+- **Investment Planning**: Data-driven decisions for EV infrastructure deployments
